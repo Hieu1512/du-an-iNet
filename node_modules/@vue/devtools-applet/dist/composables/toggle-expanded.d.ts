@@ -1,0 +1,9 @@
+import { Ref } from 'vue';
+
+export declare function createExpandedContext(): {
+    expanded: Ref<string[]>;
+};
+export declare function useToggleExpanded(): {
+    expanded: Ref<string[]>;
+    toggleExpanded: (key: string) => void;
+};
